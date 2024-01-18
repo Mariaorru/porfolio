@@ -1,0 +1,69 @@
+/*Cambio del estilo de los botones del menú*/
+nav ul li {
+	float: left;
+	list-style:none ;
+	margin: 10px;
+	background-color:#bd99bc ;
+	border:solid 3px #7d0c7b;
+	border-radius: 10px;
+	padding: 5px;
+}
+div.limpiar{
+	clear: both;
+}
+nav ul li a{
+	text-decoration: none;
+	color:#7d0c7b;
+}
+nav ul li:hover{
+	background-color:#7d0c7b ;
+}
+nav ul li a:hover{
+	color:white;
+}
+/* Modificación de los botones de la página*/
+button a{
+	text-decoration: none;
+	color: white;
+}
+button{
+	background-color: rgb(21, 119, 38);
+	color:white;
+	border: 0px;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 5px;
+}
+button:hover{
+	background-color: rgb(41, 209, 80);
+	color: white;
+}
+button.blog a{
+	color: black;
+}
+button.blog{
+	background-color: rgb(255, 255, 255);
+	border: 1px solid black;
+}
+button.blog:hover{
+	background-color: rgb(10, 10, 10);
+}
+button.blog a:hover{
+	color: white;
+}
+	/*Este código sirve para ponerle sombra a la imagen*/
+img:not(section.contenedorblog img){
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	margin: 5px;
+	width: 200px;
+	height: auto;
+}
+img.imgblog{
+	width: 300px;
+}
+video{
+	width:30%;
+
+}
